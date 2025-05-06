@@ -1,0 +1,15 @@
+{
+  "name": "tea",
+  "version": "1.0.0",
+  "description": "mongoose stoji izmedju aplikacije i MongoDB baze podataka.\r mongoose je ODM (Object Data Modeling) biblioteka za MongoDB i Node.js.\r mongoose omogućava aplikacijama da koriste MongoDB kao bazu podataka i pruža jednostavan način za rad sa podacima u bazi.\r mongoose je liberary koja olakšava rad sa MongoDB bazom podataka i omogućava aplikacijama da koriste MongoDB kao bazu podataka.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "miskogepa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
