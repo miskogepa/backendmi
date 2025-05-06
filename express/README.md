@@ -45,3 +45,14 @@ u node_modules folderu se nalaze sve zavisnosti koje smo instalirali
 
 kreiramo fajl .gitignore i dodajemo node_modules folder u njega da ne bi bio pratjen od strane git-a
 i u njga dodajemo node_modules/ da bi git ignorisao taj folder
+
+kada smo to uradili stavljamo projekat na github
+
+
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+}); ovo je home ruta koja se koristi za testiranje da li je server pokrenut
+
+posle ovoga idemo na postman i testiramo da li je server pokrenut koristimo get metodu i idemo na localhost:127.0.0.1:3000/ 
+
+ako je sve u redu dobijamo Hello World!
