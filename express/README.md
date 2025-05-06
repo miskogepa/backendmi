@@ -56,3 +56,15 @@ app.get("/", (req, res) => {
 posle ovoga idemo na postman i testiramo da li je server pokrenut koristimo get metodu i idemo na localhost:127.0.0.1:3000/ 
 
 ako je sve u redu dobijamo Hello World!
+
+DODAJEMO NODEMON
+nodemon je alat koji automatski ponovo pokreće aplikaciju kada se naprave izmene u kodu
+da bi smo ga instalirali koristimo sledeću komandu npm i -D nodemon
+
+u package.json dodajemo nodemon u skriptu start da bi smo mogli da koristimo nodemon umesto node
+ "scripts": {
+    "start": "node index.js"
+    "dev": "nodemon index.js"
+  },
+
+sada možemo da pokrenemo aplikaciju sa nodemon-om tako što ćemo u terminalu ukucati npm run dev
